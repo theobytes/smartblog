@@ -7,4 +7,4 @@ description: >-
   the services you want to use to a cloud provider and you connect to those
   services over a network.
 ---
-Cloud computing is new type of computing which taps into the power many computers connected in a network
+Cloud computing is new type of computing which taps into the power many computers connected in a network.
