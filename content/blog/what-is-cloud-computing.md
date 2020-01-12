@@ -7,4 +7,13 @@ description: >-
   the services you want to use to a cloud provider and you connect to those
   services over a network.
 ---
-Cloud Computing is the delivery of computing services over a network, the internet mostly. This enables small as well as big companies without a budget to spend on computing power to just borrow those computing services and utilize as if they own them.
+Cloud Computing is the delivery of computing services over a network, the internet mostly. This enables small as well as big companies without a budget to spend on computing power to just borrow those computing services and utilize as if they own them. 
+
+## Computing services
+
+1. Servers
+2. Storage
+3. Networking
+4. Databases
+5. Analytics
+6. Intelligence
