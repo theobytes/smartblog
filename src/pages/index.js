@@ -26,7 +26,7 @@ class IndexPage extends React.Component {
         <p>
           Technology is love, empowering our generation to reach new heights and to hope for a better future, From the internet to artificial intelligence to embedded devices, technology conquered our lives.
         </p>
-        <p>Now a new wave of technology <span role="img" aria-label="wave emoji">👋</span>RPA(Robotic Process Automation),<span role="img" aria-label="wave emoji">👋</span>Blockchain, <span role="img" aria-label="wave emoji">👋</span>Cognitive Cloud Computing, <span role="img" aria-label="wave emoji">👋</span>Internet of Things, <span role="img" aria-label="wave emoji">👋</span>Autonomous cars, <span role="img" aria-label="wave emoji">👋</span>Flying Cars and many others will seek to disrupt our ways of living</p>
+        <p>Now a new wave of technology <span role="img" aria-label="wave emoji">👋</span>RPA(Robotic Process Automation),<span role="img" aria-label="wave emoji">👋</span>Blockchain, <span role="img" aria-label="wave emoji">👋</span>Cognitive Cloud Computing, <span role="img" aria-label="wave emoji">👋</span>Internet of Things, <span role="img" aria-label="wave emoji">👋</span>Autonomous cars, <span role="img" aria-label="wave emoji">👋</span>Flying Cars and many others will seek to disrupt our ways of living. </p>
         <p>Let's read some stories!</p>
         <Link to="/blog/">
           <Button marginTop="35px">Go to Blog</Button>
