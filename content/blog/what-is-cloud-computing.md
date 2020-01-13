@@ -19,7 +19,7 @@ Services offered through the internet. The service provider incur the bandwidth 
 
 ### Private Cloud
 
-Business build and manage their own data centers for their specific tasks.There is more control over scalability, flexibility and customizability. A business can build the needed infrastructure or outsource it from other providers such as amazon aws, Microsoft azure and any more.
+Businesses build and manage their own data centers for their specific tasks.There is more control over scalability, flexibility and customizability. A business can build the needed infrastructure or outsource it from other providers such as amazon aws, Microsoft azure and any more.
 
 
 
