@@ -24,3 +24,11 @@ A cloud server is a virtual server, which runs in a cloud infrastructure.  You c
 
 * Stability, speed and security - Cloud hosting platform let many servers be involved in every client's task, this gives stability and speed to the services because the workload is distributed over several servers, joined in a cluster. Also worthy noting, all cloud hosting providers have special servers that handle the computing services separately e.g storage, databases ..... this gives stability and performance to the setup.
 * Scalability - You can start with any servers you want and can upgrade to any size you want without the worry of configuring the servers,
+
+<h3>Cloud Storage Service</h3>
+
+Maintaining and managing customers data, delivering the data over the internet. The main benefit of using cloud storage lies in your ability to scale, manage and secure your storage anytime. Leading uses includes archiving, sharing, disaster recovery and also primary storage.
+
+<h3>Cloud Networking</h3>
+
+All the networking functions are hosted in the cloud. Because the internet is so fast, there's no delay in delivering those services whenever needed. There is routing, switching and many other functions which can be centrally managed in a cloud environment.
