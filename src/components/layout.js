@@ -10,7 +10,7 @@ class Layout extends React.Component {
   state = {
     theme: "light"
   }
-
+  
   toggleTheme = () => {
     // if the theme is not light, then set it to dark
 
@@ -79,7 +79,6 @@ class Layout extends React.Component {
       <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
         <Wrapper>
           <GlobalStyles />
-          <button onClick={this.toggleTheme}>Toggle night mode</button>
           <div
             style={{
               marginLeft: `auto`,
@@ -88,6 +87,7 @@ class Layout extends React.Component {
               padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
             }}
           >
+            <button onClick={this.toggleTheme}>Toggle theme</button>
             <header>{header}</header>
             <main>{children}</main>
           </div>
