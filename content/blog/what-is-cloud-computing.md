@@ -17,3 +17,10 @@ Cloud Computing is the delivery of computing services over a network, the intern
 4. Databases
 5. Analytics
 6. Intelligence
+
+<h3>Cloud Servers</h3>
+
+A cloud server is a virtual server, which runs in a cloud infrastructure.  You can borrow a virtual server and use it via a network(internet). There are many benefits of using virtual server over physical server,
+
+* Stability, speed and security - Cloud hosting platform let many servers be involved in every client's task, this gives stability and speed to the services because the workload is distributed over several servers, joined in a cluster. Also worthy noting, all cloud hosting providers have special servers that handle the computing services separately e.g storage, databases ..... this gives stability and performance to the setup.
+* Scalability - You can start with any servers you want and can upgrade to any size you want without the worry of configuring the servers,
