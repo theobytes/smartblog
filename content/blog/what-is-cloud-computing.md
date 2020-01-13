@@ -25,12 +25,12 @@ A cloud server is a virtual server, which runs in a cloud infrastructure.  You c
 * Stability, speed and security - Cloud hosting platform let many servers be involved in every client's task, this gives stability and speed to the services because the workload is distributed over several servers, joined in a cluster. Also worthy noting, all cloud hosting providers have special servers that handle the computing services separately e.g storage, databases ..... this gives stability and performance to the setup.
 * Scalability - You can start with any servers you want and can upgrade to any size you want without the worry of configuring the servers,
 
-#### Cloud Hosting Providers
+  #### Cloud Hosting Providers
 
-1. [Digital Ocean](https://www.digitalocean.com/)
-2. [Linode](https://www.linode.com/)
-3. [Amazon Web Services (AWS)](https://aws.amazon.com/)
-4. [Microsoft Azure](https://azure.microsoft.com/en-us/)
+  1. [Digital Ocean](https://www.digitalocean.com/)
+  2. [Linode](https://www.linode.com/)
+  3. [Amazon Web Services (AWS)](https://aws.amazon.com/)
+  4. [Microsoft Azure](https://azure.microsoft.com/en-us/)
 
 
 
