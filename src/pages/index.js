@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import Button from "../components/button"
 
 class IndexPage extends React.Component {
+ 
   render() {
     const siteTitle = "Sharing Tech Ideas & Knowledge"
 

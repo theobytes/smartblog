@@ -34,7 +34,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in Harare building some cool things.
+              Written by <strong>{author}</strong> who lives and works in Harare, building some cool things.
               {` `}
               <a target="__blank" href={`https://twitter.com/${social.twitter}`}>
                 You should follow him on Twitter
