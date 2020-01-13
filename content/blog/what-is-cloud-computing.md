@@ -21,7 +21,13 @@ Services offered through the internet. The service provider incur the bandwidth 
 
 Businesses build and manage their own data centers for their specific tasks.There is more control over scalability, flexibility and customizability. A business can build the needed infrastructure or outsource it from other providers such as amazon aws, Microsoft azure and any more.
 
+### Hybrid Cloud
 
+The integration public cloud architecture and private architecture, taking the benefits of both architectures. Public clouds are cheap and offers benefits such as scalability and easy management, however, the public cloud architecture is not secure. As a result, it's not advisable to put high risk, sensitive data in it. 
+
+On the other hand, private cloud infrastructure is secure and offers the user much greater customization power. However, it is very expensive to maintain a private cloud because of the equipment and expertise needed to run one. 
+
+So, a business can decide to take the benefits of both private and public cloud, dividing the workload and services into two categories, high risk and less risk. The less risky data and services are deployed in the public cloud and the high risk and sensitive services are deployed to the private cloud.
 
 ## Computing Services
 
@@ -46,8 +52,6 @@ A cloud server is a virtual server, which runs in a cloud infrastructure.  You c
   3. [Amazon Web Services (AWS)](https://aws.amazon.com/)
   4. [Microsoft Azure](https://azure.microsoft.com/en-us/)
 
-
-
 ### Cloud Storage Service
 
 Maintaining and managing customers data, delivering the data over the internet. The main benefit of using cloud storage lies in your ability to scale, manage and secure your storage anytime. Leading uses includes archiving, sharing, disaster recovery and also primary storage.
@@ -67,8 +71,6 @@ Data mining is a computing power extensive process, without a proper computer wi
 3. [AWS analytics](https://aws.amazon.com/big-data/datalakes-and-analytics/)
 4. [Zoho Analytics](https://www.zoho.com/reports/zohoreports-pricing.html)
 5. [IBM Cognos Analytics](https://www.ibm.com/products/cognos-analytics)
-
-
 
 ## Benefits of Cloud Computing
 
