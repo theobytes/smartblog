@@ -25,6 +25,15 @@ A cloud server is a virtual server, which runs in a cloud infrastructure.  You c
 * Stability, speed and security - Cloud hosting platform let many servers be involved in every client's task, this gives stability and speed to the services because the workload is distributed over several servers, joined in a cluster. Also worthy noting, all cloud hosting providers have special servers that handle the computing services separately e.g storage, databases ..... this gives stability and performance to the setup.
 * Scalability - You can start with any servers you want and can upgrade to any size you want without the worry of configuring the servers,
 
+  #### Cloud Hosting Providers
+
+  1. [Digital Ocean](https://www.digitalocean.com/)
+  2. [Linode](https://www.linode.com/)
+  3. [Amazon Web Services (AWS)](https://aws.amazon.com/)
+  4. [Microsoft Azure](https://azure.microsoft.com/en-us/)
+
+
+
 ### Cloud Storage Service
 
 Maintaining and managing customers data, delivering the data over the internet. The main benefit of using cloud storage lies in your ability to scale, manage and secure your storage anytime. Leading uses includes archiving, sharing, disaster recovery and also primary storage.
@@ -44,3 +53,17 @@ Data mining is a computing power extensive process, without a proper computer wi
 3. [AWS analytics](https://aws.amazon.com/big-data/datalakes-and-analytics/)
 4. [Zoho Analytics](https://www.zoho.com/reports/zohoreports-pricing.html)
 5. [IBM Cognos Analytics](https://www.ibm.com/products/cognos-analytics)
+
+
+
+## Benefits of Cloud Computing
+
+1. ### **Cost**
+
+   You don't need to by hardware and running remote or on-site data centers. There's too much burden in running your own data center, the electricity, server, racks, cooling system and also the brainpower experts who do the everyday running of the servers. So cloud computing helps you achieve more without having to spend on infrastructure.
+2. ### Performance
+
+   Cloud computing services are distributed over a worldwide network of data centers. The workload and done by a server nearby. Cloud computing providers have major data centers in almost every continent and when you signup for the services you can choose a data center nearby to reduce latency. 
+3. ### Speed
+
+   A large amount of computing services (power) can be provisioned in seconds time and on demand. You don't have to plan on capacity and scale.
