@@ -9,7 +9,21 @@ description: >-
 ---
 Cloud Computing is the delivery of computing services over a network, the internet mostly. This enables small as well as big companies without a budget to spend on computing power to just borrow those computing services and utilize as if they own them. 
 
-## Computing services
+## Types of  Cloud Deployment
+
+There are three types of cloud service deployment, each categorized by how you manage and secure your business data.
+
+### Public Cloud
+
+Services offered through the internet. The service provider incur the bandwidth and infrastructure costs. And it has very limited configuration disposable to the user. The public cloud is not suitable for organisations with very sensitive data as it is less secure and vulnerable to infiltration. 
+
+### Private Cloud
+
+Business build and manage their own data centers for their specific tasks.There is more control over scalability, flexibility and customizability. A business can build the needed infrastructure or outsource it from other providers such as amazon aws, Microsoft azure and any more.
+
+
+
+## Computing Services
 
 1. Servers
 2. Storage
