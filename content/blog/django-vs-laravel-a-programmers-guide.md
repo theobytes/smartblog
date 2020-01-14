@@ -60,4 +60,4 @@ You can build any type of web projects with Django. Since it's built entirely wi
 
 ### Laravel Web Framework
 
-Laravel is a web framework written in PHP. It follows the MVC (Model View Controller) framework.
+Laravel is a web framework written in PHP. It follows the MVC (Model View Controller) framework. Its main goal is to enable and promote expressive, elegant syntax in web development.
