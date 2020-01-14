@@ -78,12 +78,16 @@ Data mining is a computing power extensive process, without a proper computer wi
 
 ## **Cost**
 
-You don't need to buy hardware and running remote or on-site data centers. There's so much burden in running your own data center, the electricity, server, racks, cooling system and also the brainpower experts who do the everyday running of the servers. So cloud computing helps you achieve more without having to spend on infrastructure.
+You don't need to buy hardware and running remote or on-site data centers. There's so much burden in running your own data center, the electricity, server, racks, cooling system and also the brainpower experts who do the everyday running of the servers. So cloud computing helps you achieve more without having to spend much on infrastructure.
 
 ### Performance
 
-Cloud computing services are distributed over a worldwide network of data centers. The workload and done by a server nearby. Cloud computing providers have major data centers in almost every continent and when you signup for the services you can choose a data center nearby to reduce latency. 
+Cloud computing services are distributed over a worldwide network of data centers. The workload is done by a server nearby. Cloud computing providers have major data centers in almost every continent and when you signup for the services you can choose a data center nearby to reduce latency.
 
 ### Speed
 
-A large amount of computing services (power) can be provisioned in seconds time and on demand. You don't have to plan on capacity and scale.
+A large amount of computing services (power) can be provisioned in seconds time and on demand. With high performance comes great speed improvements. You don't have to plan on capacity and scale.
+
+### Reliability
+
+Cloud providers are very reliable, and also the services such as storage and servers are well maintained by experts and always reliable.
