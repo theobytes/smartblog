@@ -13,11 +13,11 @@ Cloud computing can generally be viewed as a data centers available to users ove
 
 ## Types of  Cloud Deployment
 
-There are three types of cloud service deployment, each categorized by how you manage and secure your business data.
+There are three types of cloud service deployment, each categorized by who own the infrastructure, how you manage and secure your business data.
 
 ### Public Cloud
 
-Services offered through the internet. The service provider incur the bandwidth and infrastructure costs. And it has very limited configuration disposable to the user. The public cloud is not suitable for organisations with very sensitive data as it is less secure and vulnerable to infiltration. 
+Services offered through the internet from a public cloud provider. The service provider incur the bandwidth and infrastructure costs. And it has very limited configurations disposable to the user. The cloud services are available to any organisation, on-demand. It is very cheap as compared to other cloud types, however. the public cloud is not suitable for organisations with very sensitive data as it is less secure and vulnerable to infiltration.
 
 ### Private Cloud
 
