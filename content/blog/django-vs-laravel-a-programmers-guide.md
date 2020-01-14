@@ -35,3 +35,11 @@ Every web framework is built with security in mind. All the known vulnerabilitie
 ##### Scalability
 
 A Django project comprises of applications (apps) and each of those apps is pluggable to the project. So you can develop your applications in part and then plug them at the end.
+
+##### Fully Loaded
+
+Django comes with dozens of extra features and functions are typical project requires e.g. user authentication, site maps (for SEO), RSS feeds, content management.
+
+##### Versatile
+
+You can build any type of web projects with Django. Since it's built entirely with python, any python package can be used along with Django.
