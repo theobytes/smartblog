@@ -22,11 +22,11 @@ Django is a high-level web framework written purely in python programming langua
 
 #### Features
 
-Self-proclaimed features of Django web framework according to their website.
+Self-proclaimed features of Django web framework according to their website. These features however depends on your overall developing prowess. The overall performance  depends, in most cases, in how you know and use your python.
 
-##### Fast
+#####  Fast
 
-Django helps you transform your concepts and designs from paper to code to production.
+Django helps you transform your concepts and designs from paper to code to production in a very short space of time. 
 
 ##### **Secure**
 
@@ -55,3 +55,9 @@ You can build any type of web projects with Django. Since it's built entirely wi
 5. [Mozilla](https://www.mozilla.org/)
 6. [Open Stack](https://www.openstack.org/)
 7. [Open Knowledge Foundation](https://okfn.org/)
+
+
+
+### Laravel Web Framework
+
+Laravel is a web framework written in PHP. It follows the MVC (Model View Controller) framework.
