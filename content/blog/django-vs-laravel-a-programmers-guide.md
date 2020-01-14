@@ -43,3 +43,15 @@ Django comes with dozens of extra features and functions are typical project req
 ##### Versatile
 
 You can build any type of web projects with Django. Since it's built entirely with python, any python package can be used along with Django.
+
+
+
+#### Examples of sites using Django
+
+1. [Instagram](https://www.instagram.com/)
+2. [Disqus](https://disqus.com/https://disqus.com/)
+3. [Pinterest](https://www.pinterest.com/)
+4. [National Geographic](http://www.nationalgeographic.com/)
+5. [Mozilla](https://www.mozilla.org/)
+6. [Open Stack](https://www.openstack.org/)
+7. [Open Knowledge Foundation](https://okfn.org/)
