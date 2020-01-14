@@ -7,7 +7,7 @@ description: >-
   the services you want to use to a cloud provider and you connect to those
   services over a network.
 ---
-Cloud Computing is the on-demand delivery of computing services or resources over a network, the internet mostly. These services ranges from servers to networking functions.  A company can build it's own cloud infrastructure or use the infrastructure of a paid provider such as Amazon AWS or Azure.
+Cloud Computing is the on-demand delivery of computing services or resources over a network, the internet mostly. These services range from servers to networking functions.  A company can build it's own cloud infrastructure or use the infrastructure of a paid provider such as Amazon AWS or Azure.
 
 Cloud computing can generally be viewed as a data centers available to users over the internet.
 
