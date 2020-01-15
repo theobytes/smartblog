@@ -146,6 +146,15 @@ Even with this templating engine, with Laravel not dictating which JavaScript or
 
 Laravel comes with already build authentication templates for react scaffold. That's how easy it is with Laravel. Note pointing out, **Django does not offer** you with inbuilt commands to transitions from the inbuilt template engine to modern frontend stacks such as react and vue.
 
+##### Security
+
+Just as any web framework nowadays, it comes loaded with extensive features to protect your site from know vulnerabilities. Many of those features are just common over these web frameworks. So here are the security features of Laravel
+
+* ###### CSRF (Cross Site Request Forgery)
+* ###### Protection against XSS
+* ###### SQL Injection protection
+* ###### Force HTTPS / SSL
+
 #### Examples of sites using Laravel
 
 1. 9Gang
