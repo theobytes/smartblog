@@ -24,6 +24,41 @@ Django is a high-level web framework written purely in python programming langua
 
 Self-proclaimed features of Django web framework according to their website. These features however depends on your overall developing prowess. The overall performance  depends, in most cases, in how you know and use your python.
 
+##### Template engine (View Layer)
+
+Django comes with inbuilt template engine. You can focus on what matters most like database design (models) and form design while django handle template rendering of your dynamic content from the database and form. Your templates are just html files with **jinja** tags. 
+
+**Jinja** is a python web template engine and it helps django to communicate with your python view contexts. Just to give you a test of templates engine:
+
+```python
+@login_required
+def index(request):
+    user = request.user
+    schools = School.objects.filter(admin=user)
+    events = Event.objects.filter(author=user)
+    books = Book.objects.filter(poster=user)
+    lists = List.objects.filter(profile=user)
+    context = {
+        'schools': schools,
+        'events': events,
+        'books': books,
+        'lists': lists
+    }
+    template = loader.get_template('app/index.html')
+    return HttpResponse(template.render(context, request))
+```
+
+This is an index page view, it takes care of all the controlling and contexts to be rendered dynamically to the web page. So the index page displays schools, events, books, lists and are all pulled from the database through querysets such as:
+
+```python
+ #School is a model name and we're filtering the schools to return only those where scholl admin - loggedin user
+ schools = School.objects.filter(admin=user)
+```
+
+
+
+I've given a feel of how django web frameworks view layer feels like. Let's move on.
+
 ##### Fast
 
 Django helps you transform your concepts and designs from paper to code to production in a very short space of time. 
@@ -60,9 +95,21 @@ Laravel is a web framework written in PHP. It follows the MVC (Model View Contro
 
 #### Features
 
-These are some of the features Laravel offers.
+These are some of the features Laravel offers from the box. 
 
+##### Template engine
 
+Laravel comes with a powerful inbuilt engine for templating. You can also plug dynamic content into the templates to build unseemly powerful web pages. The templates are in the format template-name.blade.html, which are nothing new if you've a little experience with html language. 
+
+Even with this templating engine, with Laravel not dictating which JavaScript or CSS pre-processor to use, you can also use modern web application stacks, for example with react or angular JavaScript. Laravel particularly comes with a very ease command for choosing react as your frontend. It's very easy with the command:
+
+```php
+> php artisan ui react
+// Generate login / registration scaffolding...
+> php artisan ui react --auth
+```
+
+Laravel comes with already build authentication templates for react scaffold. That's how easy it is with Laravel. Note pointing out, **Django does not offer** you with inbuilt commands to transitions from the inbuilt template engine to modern frontend stacks such as react and vue.
 
 #### Examples of sites using Laravel
 
