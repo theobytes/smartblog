@@ -55,8 +55,6 @@ This is an index page view, it takes care of all the controlling and contexts to
  schools = School.objects.filter(admin=user)
 ```
 
-
-
 I've given a feel of how django web frameworks view layer feels like. Let's move on. 
 
 ##### Fast
@@ -69,7 +67,11 @@ Programming is hard sometimes, you forget constructs and tricks of a language ma
 
 ##### **Secure**
 
-Every web framework is built with security in mind. All the known vulnerabilities of websites are taken care of by the framework and so you don't need to worry about security as much as you would do if you develop the site yourself.
+Every web framework is built with security in mind. All the known vulnerabilities of websites are taken care of by the framework and so you don't need to worry about security as much as you would do if you develop the site yourself. Django , having developed by python programming language, all the security features of python are inherited into django web framework. 
+
+###### Cross site scripting (XSS) protection
+
+XSS allow hackers to inject client side codes into your users browsers. They can then fish a user to click link which will execute the client code to execute. These clients are usually JavaScript code injected into your sites from malicious sites on the internet.
 
 ##### Scalability
 
