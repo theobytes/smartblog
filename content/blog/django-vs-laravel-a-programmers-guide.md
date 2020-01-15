@@ -93,7 +93,7 @@ Every web framework is built with security in mind. All the known vulnerabilitie
 
 * ###### SQL Injection Protection
 
-  A SQL injection is when a user executes some SQL code to get data from your database. for example if a link on your website displays information based on categories in your database e.g https://theophilus.co/cats?category=Python, A hacker can cause your website to misbehave and return unwanted extra information by extending the link to **https://theophilus.co/cats?category=Python'+OR+1=1.**
+  A SQL injection is when a user executes some SQL code to get data from your database. for example if a link on your website displays information based on categories in your database e.g 'https://theophilus.co/?category=Python', A hacker can cause your website to misbehave and return unwanted extra information by extending the link to 'https://theophilus.co/?category=Python'+OR+1=1'.
 
   Django queries are constructed using query parameterization and this protect the querysets from SQL injections. Super convenient.
 
