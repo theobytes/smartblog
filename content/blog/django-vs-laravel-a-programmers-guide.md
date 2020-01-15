@@ -57,11 +57,15 @@ This is an index page view, it takes care of all the controlling and contexts to
 
 
 
-I've given a feel of how django web frameworks view layer feels like. Let's move on.
+I've given a feel of how django web frameworks view layer feels like. Let's move on. 
 
 ##### Fast
 
-Django helps you transform your concepts and designs from paper to code to production in a very short space of time. 
+Django helps you transform your concepts and designs from paper to code to production in a very short space of time. Also, as everybody loves fast things, a web page that loads fast will always attract users and visitors. Django is naturally fast, well, because python is fast at it's core. However, when it comes to programming, the efficiency of your program depends entirely on the programmer than it depends on the programming language. So stop relying on the framework (language) and start developing efficient programs.
+
+##### Vast and Supported Community
+
+Programming is hard sometimes, you forget constructs and tricks of a language many times over. A good support is best thing that a programmer can ever wish for from a programming language. Since Django is a high level python framework, it benefits immensely from the python community of developers.
 
 ##### **Secure**
 
