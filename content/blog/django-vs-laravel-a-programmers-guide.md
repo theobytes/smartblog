@@ -77,7 +77,7 @@ XSS allow hackers to inject client side codes into your users browsers. They can
 
 CSRF allows an attacker to execute commands using someones credentials. Django web framework has an inbuilt protection against CSRF. If you have tried to built a simple form in django you probably know the famous jinja command needed in every form, for example:
 
-```python
+```django
 <form  method="POST" class="form-horizontal form-label-left">
   {% csrf_token %}
       <div class="form-group">
