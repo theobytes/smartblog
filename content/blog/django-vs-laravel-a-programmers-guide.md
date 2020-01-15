@@ -71,7 +71,26 @@ Every web framework is built with security in mind. All the known vulnerabilitie
 
 ###### Cross site scripting (XSS) protection
 
-XSS allow hackers to inject client side codes into your users browsers. They can then fish a user to click link which will execute the client code to execute. These clients are usually JavaScript code injected into your sites from malicious sites on the internet.
+XSS allow hackers to inject client side codes into your users browsers. They can then fish a user to click link which will execute the client code to execute. These clients are usually JavaScript code injected into your sites from malicious sites on the internet. Using django protect your from major XSS attacks.
+
+###### Cross site request forgery (CSRF)
+
+CSRF allows an attacker to execute commands using someones credentials. Django web framework has an inbuilt protection against CSRF. If you have tried to built a simple form in django you probably know the famous jinja command needed in every form, for example:
+
+```python
+<form  method="POST" class="form-horizontal form-label-left">
+  {% csrf_token %}
+      <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">{{field.label}} <span class="required">*</span>
+        </label>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+           {{field}}
+        </div>
+      </div>
+</form>
+```
+
+CSRF in django works by checking for a secret in each POST request, and then a malicious user cannot resubmit a form POST to your website views and prompt another active user unwittingly submit that form.
 
 ##### Scalability
 
