@@ -69,13 +69,12 @@ Programming is hard sometimes, you forget constructs and tricks of a language ma
 
 Every web framework is built with security in mind. All the known vulnerabilities of websites are taken care of by the framework and so you don't need to worry about security as much as you would do if you develop the site yourself. Django , having developed by python programming language, all the security features of python are inherited into django web framework. 
 
-###### Cross site scripting (XSS) protection
+* ###### Cross site scripting (XSS) protection
 
-XSS allow hackers to inject client side codes into your users browsers. They can then fish a user to click link which will execute the client code to execute. These clients are usually JavaScript code injected into your sites from malicious sites on the internet. Using django protect your from major XSS attacks.
+  XSS allow hackers to inject client side codes into your users browsers. They can then fish a user to click link which will execute the client code to execute. These clients are usually JavaScript code injected into your sites from malicious sites on the internet. Using django protect your from major XSS attacks.
+* ###### Cross site request forgery (CSRF)
 
-###### Cross site request forgery (CSRF)
-
-CSRF allows an attacker to execute commands using someones credentials. Django web framework has an inbuilt protection against CSRF. If you have tried to built a simple form in django you probably know the famous jinja command needed in every form, for example:
+  CSRF allows an attacker to execute commands using someones credentials. Django web framework has an inbuilt protection against CSRF. If you have tried to built a simple form in django you probably know the famous jinja command needed in every form, for example:
 
 ```django
 <form  method="POST" class="form-horizontal form-label-left">
@@ -90,13 +89,18 @@ CSRF allows an attacker to execute commands using someones credentials. Django w
 </form>
 ```
 
-CSRF in django works by checking for a secret in each POST request, and then a malicious user cannot resubmit a form POST to your website views and prompt another active user unwittingly submit that form.
+ CSRF in django works by checking for a secret in each POST request, and then a malicious user cannot resubmit a form POST to your website views and prompt another active user unwittingly submit that form.
 
-###### SQL Injection Protection
+* ###### SQL Injection Protection
 
-A SQL injection is when a user executes some SQL code to get data from your database. for example if a link on your website displays information based on categories in your database e.g https://theophilus.co/cats?category=Python, A hacker can cause your website to misbehave and return unwanted extra information by extending the link to **https://theophilus.co/cats?category=Python'+OR+1=1.**
+  A SQL injection is when a user executes some SQL code to get data from your database. for example if a link on your website displays information based on categories in your database e.g https://theophilus.co/cats?category=Python, A hacker can cause your website to misbehave and return unwanted extra information by extending the link to **https://theophilus.co/cats?category=Python'+OR+1=1.**
 
-Django queries are constructed using query parameterization and this protect the querysets from SQL injections. Super convenient.
+  Django queries are constructed using query parameterization and this protect the querysets from SQL injections. Super convenient.
+
+  There are many other security features of django such as:
+* Clickjacking Protection.
+* Host Header Validation
+* SSL / HTTPS
 
 ##### Scalability
 
