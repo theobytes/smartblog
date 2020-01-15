@@ -92,6 +92,12 @@ CSRF allows an attacker to execute commands using someones credentials. Django w
 
 CSRF in django works by checking for a secret in each POST request, and then a malicious user cannot resubmit a form POST to your website views and prompt another active user unwittingly submit that form.
 
+###### SQL Injection Protection
+
+A SQL injection is when a user executes some SQL code to get data from your database. for example if a link on your website displays information based on categories in your database e.g https://theophilus.co/cats?category=Python, A hacker can cause your website to misbehave and return unwanted extra information by extending the link to **https://theophilus.co/cats?category=Python'+OR+1=1.**
+
+Django queries are constructed using query parameterization and this protect the querysets from SQL injections. Super convenient.
+
 ##### Scalability
 
 A Django project comprises of applications (apps) and each of those apps is pluggable to the project. So you can develop your applications in part and then plug them at the end.
