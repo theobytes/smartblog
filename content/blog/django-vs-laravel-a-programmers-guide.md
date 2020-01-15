@@ -58,6 +58,12 @@ You can build any type of web projects with Django. Since it's built entirely wi
 
 Laravel is a web framework written in PHP. It follows the MVC (Model View Controller) framework. Its main goal is to enable and promote expressive, elegant syntax in web development. Laravel is so powerful and popular, partly because PHP is a beloved programming language and many people use it. Over 85% of internet web pages use PHP and thus it has extensive documentation and this makes it easy for a new comer to adapt fast.
 
+#### Features
+
+These are some of the features Laravel offers.
+
+
+
 #### Examples of sites using Laravel
 
 1. 9Gang
