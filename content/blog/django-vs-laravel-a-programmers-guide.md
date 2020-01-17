@@ -161,6 +161,28 @@ Just as any web framework nowadays, it comes loaded with extensive features to p
 * ###### SQL Injection protection
 * ###### Force HTTPS / SSL
 
+##### Eloquent ORM (Object Relational Mapping)
+
+ORM helps a developer query the database with PHP code rather than raw SQL code. This makes it so easy to write advanced queries without thorough knowledge of databases. Example:
+
+To query a user with name  John, here is the code.
+
+```php
+$user = DB::table('users')->where('name', 'John')->first();
+
+echo $user->name;
+```
+
+But to put this into SQL code, a programmer has to write something like:
+
+```sql
+Select *
+From users
+where name = 'John'
+```
+
+This might seem simple but as you develop more advanced queries, the SQL code becomes complex and nested.
+
 #### Examples of sites using Laravel
 
 1. 9Gang
