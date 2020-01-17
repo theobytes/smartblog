@@ -24,7 +24,7 @@ Django is a high-level web framework written purely in python programming langua
 
 Self-proclaimed features of Django web framework according to their website. These features however depends on your overall developing prowess. The overall performance  depends, in most cases, in how you know and use your python.
 
-##### Template engine (View Layer)
+##### Template Engine (View Layer)
 
 Django comes with inbuilt template engine. You can focus on what matters most like database design (models) and form design while django handle template rendering of your dynamic content from the database and form. Your templates are just html files with **jinja** tags. 
 
@@ -112,7 +112,13 @@ Django comes with dozens of extra features and functions are typical project req
 
 ##### Versatile
 
-You can build any type of web projects with Django. Since it's built entirely with python, any python package can be used along with Django.
+You can build any type of web projects with Django. Since it's built entirely with python, any python package can be used along with Django. The other advantage of using django over python is the vast packages of data analysis and data presentation such as numpY, matplotlib and many more. Many data analysts uses python and so it is rich with packages and you can as well use them in your django project to produce something great.
+
+##### Ready to Use Administrator Dashboard
+
+Most of the sites needs the administrating users, blog posts and other user activities. Django comes with ready to use admin, and its very easy to use. You can also extend or customize it to create the exact dashboard you want.
+
+
 
 #### Examples of sites using Django
 
