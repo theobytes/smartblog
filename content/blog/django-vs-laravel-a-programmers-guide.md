@@ -183,6 +183,16 @@ where name = 'John'
 
 This might seem simple but as you develop more advanced queries, the SQL code becomes complex and nested.
 
+
+
+Just as django, laravel is:
+
+* Versatile
+* Scalable
+* A good support
+
+The only thing you can't find in Laravel is a ready to use admin dashboard. But if you don't want it then it's all fine.
+
 #### Examples of sites using Laravel
 
 1. 9Gang
