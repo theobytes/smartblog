@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Smart Blog
+  Smart Blog for <a href="https://clouditate.com">Clouditate</a>
 </h1>
 
 This is a finished gatsby blog
