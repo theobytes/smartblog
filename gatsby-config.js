@@ -4,7 +4,7 @@ module.exports = {
     title: `Sharing Tech Ideas & Knowledge`,
     author: `Theophilus Ngaribvume`,
     description: `A blog to share technology, programming (coding) knowledge and love`,
-    siteUrl: `https://theophilus.co`,
+    siteUrl: `https://theophilusn.com`,
     social: {
       twitter: `clouditate`,
     },
@@ -83,7 +83,7 @@ module.exports = {
         // Any additional optional fields
         sampleRate: 5,
         siteSpeedSampleRate: 10,
-        cookieDomain: "theophilus.co",
+        cookieDomain: "theophilusn.com",
       },
     },
     {

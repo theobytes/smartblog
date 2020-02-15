@@ -2,6 +2,7 @@
 path: django-vs-laravel
 date: 2020-01-14T13:34:16.713Z
 title: 'Django vs Laravel: A programmers Guide'
+tag: 'django'
 description: >-
   Laravel and Django are the two most popular web frameworks and many website
   and systems use these frameworks to power their backend. One of the reasons
