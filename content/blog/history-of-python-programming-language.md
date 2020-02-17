@@ -33,6 +33,6 @@ Guido started working on the python as a hobby project. He wanted to something t
 
 ## Version Timeline
 
-### version 0.9.0
+### version 0.9.0 (1991)
 
 In 1991 Guido released the 0.9.0 version of python. It had error handling (exception handling) and the core data types, lists, strings, dictionaries (dict) and many others.
