@@ -28,3 +28,11 @@ Guido started working on the python as a hobby project. He wanted to something t
 * Readable is key
 * Beauty is better than ugly
 * Special cases are not special enough to break the rules
+
+
+
+## Version Timeline
+
+### version 0.9.0
+
+In 1991 Guido released the 0.9.0 version of python. It had error handling (exception handling) and the core data types, lists, strings, dictionaries (dict) and many others.
