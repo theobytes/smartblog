@@ -4,7 +4,7 @@ module.exports = {
     title: `Sharing Tech Ideas & Knowledge`,
     author: `Theophilus Ngaribvume`,
     description: `A blog to share technology, programming (coding) knowledge and love`,
-    siteUrl: `https://theophilusn.com`,
+    siteUrl: `https://www.theophilusn.com`,
     social: {
       twitter: `clouditate`,
     },
