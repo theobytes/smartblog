@@ -36,3 +36,16 @@ Guido started working on the python as a hobby project. He wanted to something t
 ### version 0.9.0 (1991)
 
 In 1991 Guido released the 0.9.0 version of python. It had error handling (exception handling) and the core data types, lists, strings, dictionaries (dict) and many others.
+
+### version 1 (1994)
+
+Version 1 was the first major version released in 1994. The version included, among many other features, functional programming tools:
+
+* map
+* filter
+* lampda
+* reducer
+
+### version 2 (2000)
+
+The version supported unicodes and garbage collection features.
