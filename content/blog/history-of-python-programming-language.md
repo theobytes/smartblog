@@ -11,6 +11,19 @@ description: >-
 ---
 Python is a **high level, interpreted** programming language released in 1991 by **[Guido van Rossum](https://gvanrossum.github.io/)**. Python is a general purpose language meaning programmers can use it write softwares in various application domains. Since it's inception, developers and researchers have developed an avalanche of libraries and features for python and it has grown to be a very important programming language in industry and research places. Let's explore the history of python programming language and learn the philosophies behind it.
 
+## Python Paradigms (Multi-paradigm)
+
+* Functional
+* Imperative
+* Object-oriented
+* Reflective
+
+## Typing Discipline
+
+* Dynamic
+* Gradual
+* Duck
+
 Guido van Rossum thought of an idea of a new programming language while working at [Centrum Wiskunde & Informatica](https://www.cwi.nl/) in 1980s. He wanted it to be successor to the [ABC programming language](https://homepages.cwi.nl/~steven/abc/) with more advanced features like **error handling and to interface** with the [Amoeba operating system](https://www.cs.vu.nl/pub/amoeba/). Since he was also part of the team that developed ABC language working as an implementer, he incorporated the syntax features of it and some of it's good features. 
 
 In an interview with Bill Venners, Guido said 
@@ -19,17 +32,14 @@ In an interview with Bill Venners, Guido said
 
 Guido started working on the python as a hobby project. He wanted to something to keep him occupied on holidays. He named the language Python from BBC’s TV Show ‘Monty Python’s Flying Circus’. Programmers a obsessed with short, elegant and weird names, so he wanted something short and interesting. Guido the python's project "benevolent dictator for life" up until 2018 when he stepped down from that role. 
 
-
-
 ## Python Philosophies (The Zen of Python)
 
 * Explicit is better than implicit
+* There should on preferable way of doing something
 * Simple is more
 * Readable is key
 * Beauty is better than ugly
 * Special cases are not special enough to break the rules
-
-
 
 ## Version Timeline
 
@@ -48,4 +58,17 @@ Version 1 was the first major version released in 1994. The version included, am
 
 ### version 2 (2000)
 
-The version supported unicodes and garbage collection features.
+The version supported Unicode and garbage collection features.
+
+Python developed some features up-to 2008 releasing 2.0.0 2.x.x until the version 3 was released.
+
+### version 3(**2008)**
+
+Python was introduced to remove some duplicate programming features or constructs and module, thus fulfilling the ''There should on preferable way of doing something" law.
+
+#### Python 3 changes
+
+* Print as a function
+* One integer type
+* Division of integers returns a float.
+* Iterators and views instead of lists.
