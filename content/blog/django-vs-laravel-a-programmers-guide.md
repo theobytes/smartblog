@@ -10,16 +10,6 @@ description: >-
   development.
 ---
 
-## Table of Contents
-
-```toc
-exclude:
-  - Table of Contents
-  - Special Title
-from-heading: 2
-to-heading: 6
-```
-
 Web development is funny, enjoyable and easy if you know what you're doing. Many young programmers, however, find it difficult to start developing web systems using serious frameworks. There are many web frameworks and they'll seem to work in the same way and that causes a lot of dilemmas as to which framework to pick and learn and use. This post will highlight the similarities, differences, advantages and disadvantages of using either Laravel or Django Web Framework.
 
 Laravel and Django are the two most popular web frameworks and many website and systems use these frameworks to power their backend. One of the reasons why the frameworks gained much popularity is their inbuilt support for API development which will then communicate with Progressive Web Apps and Single Page Applications (React or Angular) frontends. Before we start let's define a framework.
