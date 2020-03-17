@@ -5,6 +5,7 @@ import { ThemeProvider } from 'styled-components'
 import { lightTheme, darkTheme } from '../utils/theme'
 import { GlobalStyles } from './global'
 import { rhythm, scale } from "../utils/typography"
+import Button from "../components/button"
 
 class Layout extends React.Component {
   state = {
@@ -87,14 +88,19 @@ class Layout extends React.Component {
               padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
             }}
           >
+            <HeaderLinks>
+                <Link to="/"><Button marginTop="35px">Home</Button></Link>
+                <Link to="/blog/"><Button marginTop="35px">Blog</Button></Link>
+                 <Link to="/contact/"><Button marginTop="35px">Contact</Button></Link>
+            </HeaderLinks>
             <button onClick={this.toggleTheme}>Toggle theme</button>
             <header>{header}</header>
             <main>{children}</main>
           </div>
           <Footer>
-            © {new Date().getFullYear()}, By
+            © {new Date().getFullYear()},
             {` `}
-            <a href="https://clouditate.com">Clouditate</a>
+            <a href="https://clouditate.com">Theophilus Ngaribvume</a>
           </Footer>
         </Wrapper>
       </ThemeProvider>
@@ -110,5 +116,9 @@ const Footer = styled.footer`
   text-align: center;
   margin: 24px;
 `
-
+const HeaderLinks = styled.div`
+  display: inline-flex;
+  padding-right: 10px;
+  margin-bottom: 20px;
+`
 export default Layout

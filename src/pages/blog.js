@@ -15,7 +15,10 @@ class Blog extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Computer Science Blog - All posts" />
+        <SEO 
+         title="Theophilus's blog on django and react js | Learn django python web framework and react library "
+         description="Django python web framework and react js free tutorials. You learn how yo build APIs and website with the two popular backend and frontend technologies"
+        />
         <Bio />
         <div style={{ margin: "20px 0 40px" }}>
           {posts.map(({ node }) => {

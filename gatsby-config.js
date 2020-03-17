@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Sharing Tech Ideas & Knowledge`,
+    title: `Django for web development and React frontend tutorials`,
     author: `Theophilus Ngaribvume`,
-    description: `A blog to share technology, programming (coding) knowledge and love`,
+    description: `Django for web development and React frontend tutorials. Learn django and build web systems, API endpoints and more.`,
     siteUrl: `https://www.theophilusn.com`,
     social: {
       twitter: `clouditate`,
@@ -11,6 +11,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-sass`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
