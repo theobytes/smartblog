@@ -207,3 +207,5 @@ urlpatterns = [
 ```
 
 If you run the server and open the browser you should see the Graphene Playground open.
+
+Now that we've installed django and created our Graphene API endpoint, let's create the React Gatsby frontend side.
