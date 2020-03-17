@@ -2,13 +2,13 @@
 path: django-and-react
 tag: django
 date: 2020-03-17T00:36:36.585Z
-title: Django and React using GraphQL API to create a blog
+title: Django and React Gatsby using GraphQL API to create a blog
 description: >-
-  Django and react js can be used to create full-stack web application. Let's
-  create a project and configure our django to run with react js as the frontend
-  layer. We'll be using GraphQL as our API query language.
+  Django and react gatsby js can be used to create full-stack web application.
+  Let's create a blog website project and configure our django to run with react
+  js as the frontend layer. We'll be using GraphQL as our API query language.
 ---
-This post is on how to structure your django and react js project. If you have problems integrating [django](https://clouditate.com/django-postgresql-and-docker-setup-linux/) and react then you've come to the right place. This simple yet comprehensive tutorial with teach you to build web apps with django and react.
+Learn how to structure your django and react js project. If you have problems integrating [django](https://clouditate.com/django-postgresql-and-docker-setup-linux/) and react gatsby js then you've come to the right place. This simple yet comprehensive tutorial with teach you to build web apps with django and react js from scratch. 
 
 ## Django Graphene and React
 
@@ -142,3 +142,5 @@ GRAPHENE = {
     ],
 }
 ```
+
+Let's create the necessary GraphQL schema.py files, We'll define our GraphQL schema in the app level schama.py and register it to the project level schema.py file.
