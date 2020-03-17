@@ -143,4 +143,20 @@ GRAPHENE = {
 }
 ```
 
+
+
+### Gatsby Schema files
+
 Let's create the necessary GraphQL schema.py files, We'll define our GraphQL schema in the app level schama.py and register it to the project level schema.py file.
+
+```
+touch django_react/schema.py
+touch blog/schema.py
+```
+
+Before we start defining the graphql schema, let's migrate our database
+
+```
+python manage.py makemigrations
+python manage.py migrate
+```
