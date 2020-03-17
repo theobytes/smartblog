@@ -2,7 +2,7 @@
 path: django-and-react
 tag: django
 date: 2020-03-17T00:36:36.585Z
-title: Django and React using GraphQL API
+title: Django and React using GraphQL API to create a blog
 description: >-
   Django and react js can be used to create full-stack web application. Let's
   create a project and configure our django to run with react js as the frontend
@@ -12,7 +12,7 @@ This post is on how to structure your django and react js project. If you have p
 
 ## Django Graphene and React
 
-Django is a [python web framework](https://www.theophilusn.com/blog/history-of-python-programming-language/) that follows the MVT architecture. Since it's inception, django popularity has being rising ever since. Many big companies are using django to power their backend including NASA (Space Organisation). Developers love django framework for many reasons including the fact that it's a python framework. We'll be using django and react js in this tutorial to create a simple user authentication system and data retrieval app. What you will learn:
+Django is a [python web framework](https://www.theophilusn.com/blog/history-of-python-programming-language/) that follows the MVT architecture. Since it's inception, django popularity has being rising ever since. Many big companies are using django to power their backend including NASA (Space Organisation). Developers love django framework for many reasons including the fact that it's a python framework. We'll be using django and react js in this tutorial to create a simple blog web application. What you will learn:
 
 * How to build a django GraphQL API
 * How to configure your django project to work with react js.
