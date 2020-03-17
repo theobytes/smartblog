@@ -213,3 +213,7 @@ urlpatterns = [
     path("", csrf_exempt(GraphQLView.as_view(graphiql=True))),
 ]
 ```
+
+If you run the server and open the browser you should see something like this:
+
+![Graphene Playground](assets/grapheneplayground.png "Graphene Playground")
