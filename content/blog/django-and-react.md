@@ -121,15 +121,9 @@ INSTALLED_APPS = [
      '.........',
      #Third part applications
      'graphene_django',
-     'corsheaders',
       
      #Custom applications
      'blog.apps.BlogConfig',
-]
-
-MIDDLEWARE = [
-    '...........',
-    'corsheaders.middleware.CorsMiddleware',
 ]
 
 #Graphene
@@ -169,7 +163,7 @@ With our database intact, django graphene is ready to take define our queries an
 Objects are presented as graph structure than a hierarchical structure. Graphene needs to understand all type of object which is expected in the graph.  For more information visit the [graphene official website](https://docs.graphene-python.org/projects/django/en/latest/tutorial-plain/).
 
 ```python
-#blog.schema.py
+#blog/schema.py
 import graphene
 from graphene_django.types import DjangoObjectType
 from blog.models import Post
@@ -186,4 +180,36 @@ class Query(object):
     def resolve_all_posts(self, info, **kwargs):
         return Post.objects.all()
 
+```
+
+The query calss is a mixin inheriting from object. Lets now create a project level query class that will combine all the application level query classes.
+
+```python
+#djano_react/schema.py
+import graphene
+import blog.schema
+
+class Query(blog.schema.Query, graphene.ObjectType):
+    pass
+
+schema = graphene.Schema(query=Query)
+```
+
+Everything in our Graphene schema is set to function well.  
+
+### Lets test our Graphene API on a URL endpoint
+
+Since we want to test our queries on the GraphQL playground, we have to configure the **urls.** GraphQL allows you to have only one single URL from which to access your API and all the requests to that URL is handled in Graphene GraphQLView.
+
+```python
+#django_react/urls.py
+from django.contrib import admin
+from django.urls import path
+from graphene_django.views import GraphQLView
+from django.views.decorators.csrf import csrf_exempt
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path("", csrf_exempt(GraphQLView.as_view(graphiql=True))),
+]
 ```
