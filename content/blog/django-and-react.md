@@ -145,7 +145,7 @@ GRAPHENE = {
 
 
 
-### Gatsby Schema files
+### GraphQL Schema files
 
 Let's create the necessary GraphQL schema.py files, We'll define our GraphQL schema in the app level schama.py and register it to the project level schema.py file.
 
