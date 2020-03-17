@@ -42,6 +42,22 @@ class IndexPage extends React.Component {
           <span role="img" aria-label="wave emoji">👋</span>React is a frontend library. It is maintained by <a target="__blank" href="https://facebook.com" rel="noopener noreferrer">Facebook</a>. React can be used to develop single page applications and cross platform mobile apps using <a target="_blank" href="https://facebook.github.io/react-native/" rel="noopener noreferrer">react native</a>. The power of react is in its ability to divide a web application into small and reusable components. A page is divided into many different parts that you can reuse on other pages.
           Many people are using react to power thier frontend. Facebook, twitter, instagram, codesandbox and many other web systems are using react because of it's power to simplify frontend development. React uses javascript XML (JSX) which is an XML syntax for extesion to javascript. With JSX, one can declare variable, attributes in HTML-like syntax. 
         </p>
+         <h3>
+          Gatsby{" "}
+        </h3>
+        <p>
+         Gatsby is a JavaScript framework for building blazing fast progressive websites and applications. It is based on React js which is a frontend library for building website and apps frontend. 
+         The websites are fast and efficient because Gatsby does not wait to build page on request, it pre-build the pages to improve server response time.
+         </p>
+         <h4>Why you should use Gatsby</h4>
+         <ul>
+          <li>Blazing fast website</li>
+          <li>Fetch your data from anywhere using the Gatsby GraphQL API</li>
+          <li>Build on top of latest and best web technolgies like React and GraphQL</li>
+          <li>Free starters or themes to choose from</li>
+          <li>Plugins that you can use to extend the functionality of your website</li>
+          <li>Best SEO results</li>
+         </ul>
         <p>
           Let's enjoy the blog.
         </p>
