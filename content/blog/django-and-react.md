@@ -10,6 +10,16 @@ description: >-
 ---
 This post is on how to structure your django and react js project. If you have problems integrating django and react then you've some to the right place. This simple yet comprehensive tutorial with teach you to build web apps with django and react.
 
-Django is a python web framework that follows the MVT architecture. Since it's inception, django popularity has being rising ever since. Many big companies are using django to power their backend including NASA (Space Organisation). Developers love django framework for many reasons including the fact that it's a python framework. We'll be using [django](https://clouditate.com/django-postgresql-and-docker-setup-linux/) and react js in this tutorial to create a simple user authentication system and data retrieval app.
+## Django Graphene and React
 
-[React js ](https://clouditate.com/react-tutorial-getting-started/)a frontend library build by Facebook to simplify frontend development. React is used by big companies such as twitter, Instagram, github, bitbucket and amazon.
+Django is a python web framework that follows the MVT architecture. Since it's inception, django popularity has being rising ever since. Many big companies are using django to power their backend including NASA (Space Organisation). Developers love django framework for many reasons including the fact that it's a python framework. We'll be using [django](https://clouditate.com/django-postgresql-and-docker-setup-linux/) and react js in this tutorial to create a simple user authentication system and data retrieval app. What you will learn:
+
+* How to build a django GraphQL API
+* How to configure your django project to work with react js.
+
+## GraphQL and React Gatsbyjs
+
+[React js ](https://clouditate.com/react-tutorial-getting-started/)a frontend library build by Facebook to simplify frontend development. React is used by big companies such as twitter, Instagram, github, bitbucket and amazon. Gatsy is a react based framework. It is packed with graphql features that are not in react itself and we shall be usng it to speed our development. What you will learn:
+
+* How to define your GraphQL API in react gatsby js.
+* How to make react gatsby communicate with django API.
