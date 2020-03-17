@@ -219,3 +219,11 @@ Gatsby  is an open source framework based on React js. It uses the latest techno
 * **Plugins** - Just like WordPress plugins, gatsby plugins extends the functionality of Gatsby.
 * **Ready to use starters -** Gatsby community of developers have build a wide range of web apps that you can choose a starter or theme from. 
 * **Site speed -** Gatsby uses pre-build web pages thus improving server response time.
+
+Open your terminal and create the gatsby project inside the django_react root folder. 
+
+```
+npm install -g gatsby-cli
+gatsby new frontend
+cd frontend
+```
