@@ -42,4 +42,18 @@ pipenv install django==3.0.3
 
 ```
 pipenv --rm
+pipenv install
+pipenv shell 
+```
+
+Now we have installed our django. Let's create the actual project.
+
+**Note:** Don't forget to activate your virtual environment by running the *pipenv shell* command.
+
+## Create Django Project using Pipenv
+
+After installing Django we can go ahead and create the django-react project. 
+
+```
+django-admin startproject django-react
 ```
