@@ -5,8 +5,8 @@ date: 2020-03-17T00:36:36.585Z
 title: Django and React Gatsby using GraphQL API to create a blog
 description: >-
   Django and react gatsby js can be used to create full-stack web application.
-  Let's create a blog website project and configure our django to run with react
-  js as the frontend layer. We'll be using GraphQL as our API query language.
+  Let's create a blog website project and our Django to run with React js as the
+  frontend layer. We'll be using GraphQL as our API query language.
 ---
 Learn how to structure your django and react js project. If you have problems integrating [django](https://clouditate.com/django-postgresql-and-docker-setup-linux/) and react gatsby js then you've come to the right place. This simple yet comprehensive tutorial with teach you to build web apps with django and react js from scratch. 
 
@@ -159,4 +159,31 @@ Before we start defining the graphql schema, let's migrate our database
 ```
 python manage.py makemigrations
 python manage.py migrate
+```
+
+With our database intact, django graphene is ready to take define our queries and mutations. There two things needed to make queries in:
+
+* schema with defined object types.
+* View that takes input and returns output.
+
+Objects are presented as graph structure than a hierarchical structure. Graphene needs to understand all type of object which is expected in the graph.  For more information visit the [graphene official website](https://docs.graphene-python.org/projects/django/en/latest/tutorial-plain/).
+
+```python
+#blog.schema.py
+import graphene
+from graphene_django.types import DjangoObjectType
+from blog.models import Post
+
+
+class PostType(DjangoObjectType):
+    class Meta:
+        model = Post
+
+
+class Query(object):
+    all_posts = graphene.List(PostType)
+
+    def resolve_all_posts(self, info, **kwargs):
+        return Post.objects.all()
+
 ```
