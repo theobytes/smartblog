@@ -211,3 +211,11 @@ If you run the server and open the browser you should see the Graphene Playgroun
 Now that we've installed django and created our Graphene API endpoint, let's create the React Gatsby frontend side.
 
 ## Install React Gatsby Js
+
+Gatsby  is an open source framework based on React js. It uses the latest technologies such as GraphQL and Webpack to speed up the site loading time. Every Gatsby website is a Progressive web app (PWA).  If you're new to React but feel comfortable learning a few concepts along the way, i highly recommend you try Gatsby js. 
+
+### Benefits of Gatsbyjs
+
+* **Plugins** - Just like WordPress plugins, gatsby plugins extends the functionality of Gatsby.
+* **Ready to use starters -** Gatsby community of developers have build a wide range of web apps that you can choose a starter or theme from. 
+* **Site speed -** gatsby uses pre-build web pages thus improving server response time.
