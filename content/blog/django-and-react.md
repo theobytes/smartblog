@@ -26,8 +26,6 @@ Django is a [python web framework](https://www.theophilusn.com/blog/history-of-p
 
 Let's get started and develop our website.
 
-
-
 ## Create a virtual environment and install django
 
 A virtual environment helps us to separate our system files from the mess we might cause when developing our django project
@@ -66,8 +64,6 @@ pipenv install django-graphql-jwt
 pipenv install django-cors-headers
 pipenv install autopep8 --dev
 ```
-
-
 
 ### Create Django application
 
@@ -109,7 +105,6 @@ class Post(models.Model):
     def save(self, *args, **kwargs):
         self.slug = slugify(self.title)
         super().save(*args, **kwargs)
-
 ```
 
 Now that our main blog application is created and we've also defined our models. Let's register the blog application and define our Graphene settings in the django_react.settings.py file 
@@ -136,8 +131,6 @@ GRAPHENE = {
     ],
 }
 ```
-
-
 
 ### GraphQL Schema files
 
@@ -179,7 +172,6 @@ class Query(object):
 
     def resolve_all_posts(self, info, **kwargs):
         return Post.objects.all()
-
 ```
 
 The query calss is a mixin inheriting from object. Lets now create a project level query class that will combine all the application level query classes.
@@ -214,6 +206,4 @@ urlpatterns = [
 ]
 ```
 
-If you run the server and open the browser you should see something like this:
-
-![Graphene Playground](assets/grapheneplayground.png "Graphene Playground")
+If you run the server and open the browser you should see something the Graphene Playground open.
