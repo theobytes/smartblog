@@ -206,4 +206,4 @@ urlpatterns = [
 ]
 ```
 
-If you run the server and open the browser you should see something the Graphene Playground open.
+If you run the server and open the browser you should see the Graphene Playground open.
