@@ -82,6 +82,7 @@ python manage.py startapp blog
 Create your model classes in the blog app.models.py file.
 
 ```python
+#blog/models.py
 from django.db import models
 from django.utils.translation import gettext_lazy as _ 
 from django.utils.text import slugify
@@ -109,4 +110,35 @@ class Post(models.Model):
         self.slug = slugify(self.title)
         super().save(*args, **kwargs)
 
+```
+
+Now that our main blog application is created and we've also defined our models. Let's register the blog application and define our Graphene settings in the django_react.settings.py file 
+
+```python
+#django_react/settings.py
+
+INSTALLED_APPS = [
+     '.........',
+     #Third part applications
+     'graphene_django',
+     'corsheaders',
+      
+     #Custom applications
+     'blog.apps.BlogConfig',
+]
+
+MIDDLEWARE = [
+    '...........',
+    'corsheaders.middleware.CorsMiddleware',
+]
+
+#Graphene
+GRAPHENE = {
+     #To be created schema.py file inside the django_react project folder
+    'SCHEMA': 'django_react.schema.schema',
+    # JWT Authentication
+    'MIDDLEWARE': [
+        'graphql_jwt.middleware.JSONWebTokenMiddleware',
+    ],
+}
 ```
