@@ -23,3 +23,5 @@ Django is a python web framework that follows the MVT architecture. Since it's i
 
 * How to define your GraphQL API in react gatsby js.
 * How to make react gatsby communicate with django API.
+
+Let's get started and develop our website.
