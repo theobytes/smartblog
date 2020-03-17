@@ -25,3 +25,21 @@ Django is a [python web framework](https://www.theophilusn.com/blog/history-of-p
 * How to make react Gatsby communicate with Django API.
 
 Let's get started and develop our website.
+
+
+
+## Create a virtual environment and install django
+
+A virtual environment helps us to separate our system files from the mess we might cause when developing our django project
+
+```
+mkdir blogging && cd blogging
+pipenv install django==3.0.3
+
+```
+
+**Note:** Sometimes you will an UnsupportedPythonVersion error - Django requires Python>=2.7.17. To solve this problem. Open your Pipfile and change the python version from 2.7 to 3.7 or 3.6 depending which one is globally installed on your computer. and after changing the python version, run the following command:
+
+```
+pipenv --rm
+```
