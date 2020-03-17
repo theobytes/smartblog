@@ -218,4 +218,4 @@ Gatsby  is an open source framework based on React js. It uses the latest techno
 
 * **Plugins** - Just like WordPress plugins, gatsby plugins extends the functionality of Gatsby.
 * **Ready to use starters -** Gatsby community of developers have build a wide range of web apps that you can choose a starter or theme from. 
-* **Site speed -** gatsby uses pre-build web pages thus improving server response time.
+* **Site speed -** Gatsby uses pre-build web pages thus improving server response time.
