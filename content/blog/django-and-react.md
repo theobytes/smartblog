@@ -147,7 +147,7 @@ Your Post model is registered and you can view from the django dashboard. Now ad
 python manage.py createsuperuser
 ```
 
-Navigate to your django admin,if you're running the default configurations it's on <http://127.0.0.1:8000/admin/>. 
+Navigate to your django admin,if you're running the default configurations it's on http://127.0.0.1:8000/admin/. 
 
 You can now create your sample posts.
 
@@ -188,9 +188,16 @@ class PostType(DjangoObjectType):
 
 class Query(object):
     all_posts = graphene.List(PostType)
+    get_post = graphene.Field(PostType, slug=graphene.String())
 
     def resolve_all_posts(self, info, **kwargs):
         return Post.objects.all()
+    
+    def resolve_get_post(self, info, **kwargs):
+        slug = kwargs.get('slug')
+        if slug is not None:
+            return Post.objects.get(slug=slug)
+        return None
 ```
 
 The query calss is a mixin inheriting from object. Lets now create a project level query class that will combine all the application level query classes.
@@ -269,7 +276,7 @@ plugins: [
         typeName: "django",
         // Field under which the remote schema will be accessible. You'll use this in your Gatsby query
         fieldName: "DJANGO",
-        // Url to query from
+        // Url or Django Graphene Endpoint
         url: "http://127.0.0.1:8000/",
       },
     },
@@ -277,3 +284,44 @@ plugins: [
 ```
 
 Restart your frontend server and go to graphQL server, in my case it's running on http://localhost:8001/___graphql.
+
+```javascript
+//frontend/src/pages/index.js
+
+import React from "react"
+import { graphql, Link } from "gatsby"
+import Layout from "../components/layout"
+
+export default ({ data }) => (
+
+  <Layout>
+    {data.DJANGO.allPosts.map((blog, i) => (
+      <Link key={i} to={blog.slug}>
+        <h2>
+          {blog.title}
+        </h2>
+         <p>
+          {blog.summary}
+        </p>
+      </Link>
+    ))}
+  </Layout>
+)
+
+
+export const query = graphql`
+  query {
+    DJANGO {
+      allPosts {
+        keywords
+        slug
+        summary
+        title
+      }
+    }
+  }
+`
+
+```
+
+Open your frontend server on the browser, you should the post you added in your django admin.
