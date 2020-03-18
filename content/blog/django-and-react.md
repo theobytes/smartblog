@@ -132,6 +132,25 @@ GRAPHENE = {
 }
 ```
 
+After adding your application,register your models inside the django_react/blog/admin.py
+
+```python
+from django.contrib import admin
+from blog.models import Post
+
+admin.site.register(Post)
+```
+
+Your Post model is registered and you can view from the django dashboard. Now add a django super user that can access and create the Post in the dashboard.
+
+```
+python manage.py createsuperuser
+```
+
+Navigate to your django admin,if you're running the default configurations it's on <http://127.0.0.1:8000/admin/>. 
+
+You can now create your sample posts.
+
 ### GraphQL Schema files
 
 Let's create the necessary GraphQL schema.py files, We'll define our GraphQL schema in the app level schama.py and register it to the project level schema.py file.
@@ -238,7 +257,7 @@ npm install --save gatsby-source-graphql
 
 
 
-Source GraphQL Plugin Configurations.
+**Source GraphQL Plugin Configurations.**
 
 ```javascript
 plugins: [
