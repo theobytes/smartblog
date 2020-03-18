@@ -228,3 +228,33 @@ gatsby new frontend
 cd frontend
 gatsby develop
 ```
+
+Now make sure you're inside the newly created Gatsby project. Let's install the necessary Gatsby plugins needed to pull our Django Graphene API.
+
+```
+npm install --save gatsby-source-graphql
+
+```
+
+
+
+Source GraphQL Plugin Configurations.
+
+```javascript
+plugins: [
+    // Add the configurations
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        // Arbitrary name for the remote schema Query type
+        typeName: "django",
+        // Field under which the remote schema will be accessible. You'll use this in your Gatsby query
+        fieldName: "DJANGO",
+        // Url to query from
+        url: "http://127.0.0.1:8000/",
+      },
+    },
+  ]
+```
+
+Restart your frontend server and go to graphQL server, in my case it's running on http://localhost:8001/___graphql.
