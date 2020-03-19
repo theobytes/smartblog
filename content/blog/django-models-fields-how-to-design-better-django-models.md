@@ -157,3 +157,16 @@ companies = Company.objects.filter(car__model='Cyber Truck')
 ```
 
 So the related_name is plural and the related_query_name is singular.
+
+### Django Blank and Null Fields
+
+Blank and Null field options in django causes a little confusion sometimes, but it should not. Just remember,
+
+1. The Null option is used for database level effects. Null is true if you allow null values to be added into your database tables.
+2. The blank field is used for form validation purposes. Blank is true will allow a form to be submitted without a value.
+
+The default values for null and blank are False. When dealing with Boolean fields, always use the NullBooleanField instead of Null.
+
+### Django auto_now and auto_now_add
+
+Though it's advised not to use the auto_now and auto_now_add and define the date options in your save() method, **auto_now_add** sets the date to timezone.now() when the instance is first created, auto_now will update the date everytime the *save* method is called.
