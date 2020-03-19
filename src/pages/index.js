@@ -8,7 +8,7 @@ import Button from "../components/button"
 class IndexPage extends React.Component {
  
   render() {
-    const siteTitle = "Django and React tutorials | GatsbyJs with Django Graphene GraphQL API"
+    const siteTitle = "Django Backend and React Frontend Tutorials"
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
