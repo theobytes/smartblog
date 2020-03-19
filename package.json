@@ -57,7 +57,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "https://github.com/theobytes/smartblog"
+    "url": "https://github.com/theonga/smartblog"
   },
   "scripts": {
     "build": "gatsby build",
