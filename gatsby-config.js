@@ -6,11 +6,7 @@ module.exports = {
     description: `Django for web development and React frontend tutorials. Learn django and build web systems, API endpoints and more.`,
     siteUrl: `https://www.theophilusn.com`,
     social: {
-      twitter: `theo_nga`,
-      tiktok: `theo_nga`,
-      facebook: `theongame`,
-      pinterest: `theo_nga`,
-      linkedin: `theonga`,
+      twitter: `theo_nga`
     },
   },
   plugins: [
