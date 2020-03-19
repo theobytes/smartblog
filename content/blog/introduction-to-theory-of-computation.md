@@ -35,7 +35,7 @@ These questions are answered in theory of computation.
    * Context Free Grammars - Models for defining programming languages.
    * Turing Machines - An abstract model of a computer e.g a PC.
 
-## Application of Computation Theory
+## Introduction to Theory of Computation Solutions
 
 1. Pattern recognition in text i.e string searching algorithms.
 2. Identifying tractable and intractable problems
@@ -59,3 +59,13 @@ It is a method for defining languages. This model is said to be finite because t
 * Finite set of state, initial state and final states
 * An alphabet of possible input symbols
 * Finite set of transitions that takes a state and symbol of input and gives the state to go to next.
+
+### Deterministic Finite State Automaton
+
+A deterministic finite automaton is an abstract device where one can determine the state to which the machine will move for each input string. It is a device that:
+
+* Has one initial state
+* At least one accept state
+* Always in one of a finite number of state
+* Is attached to an input stream
+* Capable of switching state which is uniquely determined by the current state and symbol read from the input.
