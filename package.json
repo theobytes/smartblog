@@ -1,9 +1,9 @@
 {
-  "name": "django-web-blog",
+  "name": "django-react-blog",
   "private": true,
   "description": "Django for web development tutorials. Learn django and build web systems, API endpoints and more.",
   "version": "1.0.0",
-  "author": "Theophilus Ngaribvume <tdbvume@outlook.com>",
+  "author": "Theo Nga <tdbvume@outlook.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -49,7 +49,7 @@
   "devDependencies": {
     "prettier": "^1.17.0"
   },
-  "homepage": "https://clouditate.com",
+  "homepage": "https://www.theophilusn.com",
   "keywords": [
     "gatsby"
   ],
