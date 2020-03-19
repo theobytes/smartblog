@@ -6,7 +6,11 @@ module.exports = {
     description: `Django for web development and React frontend tutorials. Learn django and build web systems, API endpoints and more.`,
     siteUrl: `https://www.theophilusn.com`,
     social: {
-      twitter: `clouditate`,
+      twitter: `theo_nga`,
+      tiktok: `theo_nga`,
+      facebook: `theongame`,
+      pinterest: `theo_nga`,
+      linkedin: `theonga`,
     },
   },
   plugins: [
@@ -90,11 +94,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Tech knowledge sharing blog`,
-        short_name: `Theophilus`,
+        name: `Django for web development and React frontend tutorials`,
+        short_name: `django and react`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#1b1338`,
         display: `minimal-ui`,
         // edit below
         icon: `content/assets/gatsby-icon.png`,
