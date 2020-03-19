@@ -45,3 +45,17 @@ These questions are answered in theory of computation.
 6. Implementation of genetic programming
 7. Implementation of neural networks
 8. Implementation of robotics problems
+
+## Finite Automata
+
+Some systems can be viewed as being in one of a finite number of states. The state is used to remember the important part of the history.  Finite automata allows the implementation of systems with finite computing resources.
+
+A typical example is an off/on switch. The device must remember it's state, off or on and allows a user to change the state depending on the current switch state.
+
+It is a method for defining languages. This model is said to be finite because the possible states and number of alphabet letters are **finite.** The changes in state is determined by input.
+
+**Finite Automata has**: 
+
+* Finite set of state, initial state and final states
+* An alphabet of possible input symbols
+* Finite set of transitions that takes a state and symbol of input and gives the state to go to next.
