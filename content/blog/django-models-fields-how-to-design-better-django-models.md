@@ -5,8 +5,8 @@ date: 2020-03-19T16:13:29.658Z
 title: 'Django models fields:  How to design better django models'
 description: >-
   Designing better django models can help improve your applications overall
-  implementations. In this post, we'll get the introduction to django models,
-  ORM concepts and how to design better models.
+  design implementations and code readability. In this post, we'll get the
+  introduction to django models, ORM concepts and how to design better models.
 ---
 Designing better django models can help improve your applications overall implementations. In this post, we'll get the introduction to django models, ORM concepts and how to design better models.
 
@@ -27,7 +27,7 @@ My first advice is you should [PEP8](https://www.python.org/dev/peps/pep-0008/).
 
 ## How to name your django models
 
-Every model class is a typical python class so all the PEP8 guidelines on class definition applies. Always use **CapWord** andunderscores.  Examples:
+Every model class is a typical [python](https://www.theophilusn.com/blog/history-of-python-programming-language/) class so all the PEP8 guidelines on class definition applies. Always use **CapWord** andunderscores.  Examples:
 
 * SiteMeta over Site_Meta or site_meta.
 * UserCatetegory over User_Category or user_category
@@ -56,7 +56,7 @@ class BlogPost(models.Model):
 
 The name of the model must always be singular, **Use BlogPost over BlogPosts.** 
 
-The django model class Meta should appear soon after the fields and custom manager attributes are defined.
+The [django model class Meta](https://clouditate.com/what-is-a-meta-class-in-django/) should appear soon after the fields and custom manager attributes are defined.
 
 ### Order of django model inner classes and functions
 
@@ -160,7 +160,7 @@ So the related_name is plural and the related_query_name is singular.
 
 ### Django Blank and Null Fields
 
-Blank and Null field options in django causes a little confusion sometimes, but it should not. Just remember,
+[Blank and Null field options](https://docs.djangoproject.com/en/3.0/ref/models/fields/) in django causes a little confusion sometimes, but it should not. Just remember,
 
 1. The Null option is used for database level effects. Null is true if you allow null values to be added into your database tables.
 2. The blank field is used for form validation purposes. Blank is true will allow a form to be submitted without a value.
@@ -169,4 +169,10 @@ The default values for null and blank are False. When dealing with Boolean field
 
 ### Django auto_now and auto_now_add
 
-Though it's advised not to use the auto_now and auto_now_add and define the date options in your save() method, **auto_now_add** sets the date to timezone.now() when the instance is first created, auto_now will update the date everytime the *save* method is called.
+Though it's advised not to use the auto_now and auto_now_add and define the date options in your save() method, **auto_now_add** sets the date to timezone.now() when the instance is first created, auto_now will update the date every time the *save* method is called.
+
+
+
+## Recommended Reading
+
+Improve your django web framework knowledge by reading the [Django graphene Graphql API and Gatsby react integration](https://www.theophilusn.com/blog/django-and-react/).
