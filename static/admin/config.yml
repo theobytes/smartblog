@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: theobytes/smartblog
+  repo: theonga/smartblog
   branch: master
 
 media_folder: static/assets
