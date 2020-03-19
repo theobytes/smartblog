@@ -107,7 +107,9 @@ class Transfer(models.Model):
 
 ### Django models reverse relationships
 
-**related_name -** the related_name attribute in foreign key definition allows meaningful naming for the reverse relationship. As default, a programmer must use the plural of the model where the foreign key is defined.
+#### **related_name** 
+
+The related_name attribute in foreign key definition allows meaningful naming for the reverse relationship. As default, a programmer must use the plural of the model where the foreign key is defined.
 
 ```python
 class Company:
@@ -132,3 +134,26 @@ cybertruck = Car.objects.get(model='Cyber Truck')
 tesla = Company.objects.get(name='Tesla')
 tesla.cars.add(cybertruck)
 ```
+
+#### related_query_name
+
+The related_query_name is used to customize the relationship name, for example:
+
+```python
+class Car:
+  model = models.CharField(max_length=40)
+  company = models.ForeignKey(
+    Company, 
+    on_delete=models.CASCADE,
+    related_name='cars',
+    related_query_name='car'
+  )
+```
+
+After defining your models and query names, here is the way to use them:
+
+```
+companies = Company.objects.filter(car__model='Cyber Truck')
+```
+
+So the related_name is plural and the related_query_name is singular.
