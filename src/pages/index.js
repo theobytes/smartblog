@@ -13,7 +13,7 @@ class IndexPage extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title=""Django and React tutorials | GatsbyJs with Django Graphene GraphQL API"
+          title="Django Backend and React Frontend Tutorials"
           keywords={[`django`, `graphene`, `react`, `frontend`, `backend`, `api`, `graphql`, `web development`, `python`, `django graphene`, `api development with django`, `python`, `react`, `gatsby` ]}
         />
         <img style={{ margin: 0 }} src="./blog.svg" alt={siteTitle} />
