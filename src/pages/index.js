@@ -38,7 +38,7 @@ class IndexPage extends React.Component {
          <span role="img" aria-label="wave emoji">👋</span><Link to="/blog/django-models-fields-how-to-design-better-django-models/">a database ORM (Object Relational Mapper)</Link>
          that allows you to define your database schema in python code and geneate database tables using a magic command, python manage.py migrate, 
          <span role="img" aria-label="wave emoji">👋</span>a view layer that comes packed with extensible view classes like the CreateView, UpdateView, ListView, TemplateView, and DetailView, <span role="img" aria-label="wave emoji">👋</span> a permission system that allows you to define access boundaries in your website,
-         <span role="img" aria-label="wave emoji">👋</span>a ready to use dashboard that you can use for content management. It's also easy to <Link to="/blog/django-forms-with-bootstrap-4-django-allauth-login-and-signup-custom-pages/">add bootstrap 4 into your forms</Link> and templates using third part application like django crispy forms.
+         <span role="img" aria-label="wave emoji">👋</span>a ready to use dashboard that you can use for content management. It's also easy to <Link to="/blog/django-forms-with-bootstrap-4/">add bootstrap 4 into your forms</Link> and templates using third part application like django crispy forms.
         
    </p>
         <h3>
