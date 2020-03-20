@@ -1,5 +1,5 @@
 ---
-path: django-with-bootstrap
+path: django-with-bootstrap-4
 tag: django
 date: 2020-03-20T06:01:30.267Z
 title: Django forms with bootstrap 4
