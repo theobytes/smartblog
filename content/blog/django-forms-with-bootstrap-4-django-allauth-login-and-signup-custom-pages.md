@@ -128,10 +128,6 @@ Lastly we also want the logout template to use bootstrap 4 css. So let's add the
 {% endblock content %}
 ```
 
-
-
 you can also use django crispy forms on [django model](https://www.theophilusn.com/blog/django-models-fields-how-to-design-better-django-models/) form by add crispy_forms_tags and use the form.crispy tag to render the form.
 
-
-
-Now run your visit your logout and login page to see the bootstrap in action. Thank your for following.
+Now run your server and visit your signup, login and  logout page to see the bootstrap in action. Thank your for following.
