@@ -2,7 +2,7 @@
 path: django-with-bootstrap
 tag: django
 date: 2020-03-20T06:01:30.267Z
-title: 'Django forms with bootstrap 4, django allauth login and signup custom pages.'
+title: 'Django forms with bootstrap 4,'
 description: >-
   Learn how to use bootstrap 4 with your django forms and improve the designs of
   your form pages. Django crispy forms is a great django application to add
