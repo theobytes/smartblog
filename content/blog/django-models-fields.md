@@ -57,3 +57,29 @@ As you can see, choosing a field type for storing the data is more like deciding
 Django ships with field validation for each particular data type. Choosing the right field will also help you when dealing with django forms, especially model forms. 
 
 Let's review the most useful django model fields and when to use one.
+
+### AutoField
+
+Django model AutoField is an integer field that auto increments. You can set other arguments such as primary_key which will help set the AutoField to as your table primary key.
+
+**Example**
+
+```python
+class School(models.Model):
+    id = models.AutoField(primary_key=True)
+```
+
+### BigAutoField
+
+This is more like the django AutoField but has more bits. It is a 64-bit integer.
+
+**Example**
+
+```python
+class Products(models.Model):
+    code = models.BigAutoField()
+```
+
+### CharField
+
+CharField is a field that takes characters. It is used for small to large strings. For every CharField definition, you should define the max_length argument.
