@@ -16,7 +16,7 @@ class Blog extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO 
-         title="Theophilus's web webdevolopment blog | Learn django python web framework and react library"
+         title="Theophilus's web devolopment blog | Learn django python web framework and react library"
          description="Django python web framework and react js free tutorials. You learn how yo build APIs and website with the two popular backend and frontend technologies"
         />
         <Bio />
