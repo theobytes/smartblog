@@ -8,13 +8,13 @@ import Button from "../components/button"
 class IndexPage extends React.Component {
  
   render() {
-    const siteTitle = "Django Backend and React Frontend Tutorials"
+    const siteTitle = "Django, React, Python, & Linux Tutorials"
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="Django Backend and React Frontend Tutorials"
-          keywords={[`django`, `graphene`, `react`, `frontend`, `backend`, `api`, `graphql`, `web development`, `python`, `django graphene`, `api development with django`, `python`, `react`, `gatsby` ]}
+          title="Django, React, Python, & Linux Tutorials"
+          keywords={[`django`, `python`, `linux`, `graphene`, `react`, `frontend`, `backend`, `api`, `graphql`, `web development`, `python`, `django graphene`, `api development with django`, `python`, `react`, `gatsby` ]}
         />
         <img style={{ margin: 0 }} src="./blog.svg" alt={siteTitle} />
         <h1>
