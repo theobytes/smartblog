@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Django for web development and React frontend tutorials`,
-    author: `Theo Nga`,
-    description: `Django for web development and React frontend tutorials. Learn django and build web systems, API endpoints and more.`,
+    title: `Django, React, Python, Linux & Computer Science Tutorials`,
+    author: `Theophilus Ngaribvume`,
+    description: `Django, React, Python, Linux & Computer Science Tutorials. Lean how to code, create websites, and manage servers`,
     siteUrl: `https://www.theophilusn.com`,
     social: {
       twitter: `theo_nga`
@@ -90,7 +90,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Django for web development and React frontend tutorials`,
+        name: `Django, React, Python, Linux & Computer Science Tutorials`,
         short_name: `django and react`,
         start_url: `/`,
         background_color: `#ffffff`,
