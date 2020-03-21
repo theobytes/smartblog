@@ -38,11 +38,6 @@ class School(models.Model):
     boards = (
         ('zimsec', 'ZiMSEC'),
         ('cambridge', 'CAMBRIDGE'),
-        ('zimsec-cambridge', 'ZIMSEC & CAMBRIDGE'),
-        ("zimsec-hexco", 'ZIMSEC & HEXCO'),
-        ("cambridge-hexco", 'CAMBRIDGE & HEXCO'),
-        ('hexco', 'HEXCO'),
-        ("zimsec-cambridge-hexco", 'All'),
     )
     id = models.AutoField(primary_key=True)
     admin = models.OneToOneField(User, on_delete=models.CASCADE)
