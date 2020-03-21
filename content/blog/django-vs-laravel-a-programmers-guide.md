@@ -1,22 +1,61 @@
 ---
 path: django-vs-laravel
+tag: django
 date: 2020-01-14T13:34:16.713Z
 title: 'Django vs Laravel: A programmers Guide'
-tag: 'django'
 description: >-
   Laravel and Django are the two most popular web frameworks and many website
   and systems use these frameworks to power their backend. One of the reasons
   why the frameworks gained much popularity is their inbuilt support for API
   development.
 ---
+Laravel and [Django](https://www.theophilusn.com/blog/django-and-react/) are the two most popular web frameworks and many website and systems use these frameworks to power their backend. One of the reasons why the frameworks gained much popularity is their inbuilt support for API development.
+
+If you google the differences between django and laravel you would probably get thousands of results. This post will give the brief and summarized list of differences.
+
+## Django vs Laravel: Summary differences
+
+### Built with
+
+**Django** is full stack web framework written in python programming language, It is free, open source and you can also personally contribute to it's [development technically ](https://docs.djangoproject.com/en/dev/internals/contributing/)or [financially](https://www.djangoproject.com/fundraising/). 
+
+**Laravel** is a full stack PHP web framework. It is also free, open source meaning you can also contribute to it's development.
+
+### Framework Feature Tools
+
+**Django** comes with essential tools for SEO, and also decorators which can make development easier. There are also numerous third party tools you can use. 
+
+**Laravel** comes with simple tools like method injection.
+
+### Community
+
+**Django** has a very active user community. You can have help on GitHub issues, stack overflow and other blog posts like this one.
+
+**Laravel** also has active community of developers and you can find help on GitHub and stack overflow.
+
+### Maintenance
+
+**Django** is maintained by the [django software foundation](https://www.djangoproject.com/foundation/). 
+
+**Laravel** is maintained by Taylor Otwell under the MIT free software licence.
+
+### Learning Curve
+
+**Django** is very easy to learn. A lot of technical and complicated concepts are abstracted from you. And is is written in [python](https://www.theophilusn.com/blog/history-of-python-programming-language/). Django scaffold project has far less files than those of laravel.
+
+**Laravel** is a bit hard as it introduces concepts on top of other already known concepts. But this view totally subjective and someone can find laravel easier than django.
+
+
+
+## Extra details
 
 Web development is funny, enjoyable and easy if you know what you're doing. Many young programmers, however, find it difficult to start developing web systems using serious frameworks. There are many web frameworks and they'll seem to work in the same way and that causes a lot of dilemmas as to which framework to pick and learn and use. This post will highlight the similarities, differences, advantages and disadvantages of using either Laravel or Django Web Framework.
 
 Laravel and Django are the two most popular web frameworks and many website and systems use these frameworks to power their backend. One of the reasons why the frameworks gained much popularity is their inbuilt support for API development which will then communicate with Progressive Web Apps and Single Page Applications (React or Angular) frontends. Before we start let's define a framework.
 
-## Web Framework
+## Web Frameworks
 
-A web framework is abstract software. The framework has abstract implementations of functions such as routers, views, model development and migrations. These abstractions help a developer get started very quickly without deep programming knowledge.
+A web framework is abstract software. The framework has abstract implementations of functions such as routers, views, [model development and migrations](https://www.theophilusn.com/blog/django-models-fields-how-to-design-better-django-models/). These abstractions help a developer get started very quickly without deep programming knowledge.
 
 ### Django Web Framework
 
@@ -120,8 +159,6 @@ You can build any type of web projects with Django. Since it's built entirely wi
 
 Most of the sites needs the administrating users, blog posts and other user activities. Django comes with ready to use admin, and its very easy to use. You can also extend or customize it to create the exact dashboard you want.
 
-
-
 #### Examples of sites using Django
 
 1. [Instagram](https://www.instagram.com/)
@@ -184,8 +221,6 @@ where name = 'John'
 ```
 
 This might seem simple but as you develop more advanced queries, the SQL code becomes complex and nested.
-
-
 
 Just as django, laravel is:
 
