@@ -90,7 +90,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Django, React, Python, Linux & Computer Science Tutorials`,
+        name: `Django, React, Python, & Linux Tutorials`,
         short_name: `django and react`,
         start_url: `/`,
         background_color: `#ffffff`,
