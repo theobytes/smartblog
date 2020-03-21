@@ -4,10 +4,12 @@ tag: django
 date: 2020-03-21T14:49:33.572Z
 title: Django Models Fields
 description: >-
-  Django model fields example code and illustrations. Learn all the django model
-  fields and use them effectively in your django project.
+  Learn all the django model fields and use them effectively in your django
+  project. This post has django model fields reviews and example code. Choosing
+  a django model field type is like choosing a c++ or java variable type and you
+  have to be correct.
 ---
-Django model fields example code and illustrations. Learn all the django model fields and use them effectively in your django project.
+Learn all the django model fields and use them effectively in your django project. This post has django model fields reviews and example code. Choosing a django model field type is like choosing a c++ or java variable type and you have to be correct.
 
 Django object relational mapper (ORM) helps developers define and manipulate database tables using python code. This tutorial will highlight the different fields that django introduces to make the OR more effective and reliable.
 
