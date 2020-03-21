@@ -23,7 +23,7 @@ class IndexPage extends React.Component {
             👋
           </span>
         </h1>
-        <p>Django and React Tutorials.</p>
+        <p>Django, React, Python, & Linux Tutorials.</p>
         <p>
           <Link to="blog/django-and-react/">Django and react</Link> are two popular technologies that can be used hand in hand to develop web applications and systems.Django web frameworks has been around since 2005 and react js was also developed in 2013. They 're a bit old technologies but still powerful and fun to play around. Django competes with other web frameworks such as <Link to="/blog/django-vs-laravel-a-programmers-guide/">Laravel web framework</Link>. React on the other hand competes with angular js.
         </p>
