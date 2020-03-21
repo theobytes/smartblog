@@ -47,3 +47,11 @@ class School(models.Model):
     exams = models.CharField(_("Exam Boards"), max_length=50)
     country = CountryField(_("Country"), default="ZW")
 ```
+
+
+
+As you can see, choosing a field type for storing the data is more like deciding which data type to use when writing a java or c++ code. You have to choose the appropriate field type for each field. 
+
+Django ships with field validation for each particular data type. Choosing the right field will also help you when dealing with django forms, especially model forms. 
+
+Let's review the most useful django model fields and when to use one.
