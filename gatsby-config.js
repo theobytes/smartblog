@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Django, React, Python, Linux & Computer Science Tutorials`,
+    title: `Django, React, Python, & Linux Tutorials`,
     author: `Theophilus Ngaribvume`,
     description: `Django, React, Python, Linux & Computer Science Tutorials. Lean how to code, create websites, and manage servers`,
     siteUrl: `https://www.theophilusn.com`,
